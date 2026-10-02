@@ -1,0 +1,173 @@
+{
+  "repeats": 8,
+  "max_polluters": 3,
+  "by_size": [
+    {
+      "n_tests": 100,
+      "ddmin": {
+        "executions": 2538.875,
+        "runs": 134.875
+      },
+      "bisect": {
+        "executions": 1006.0,
+        "runs": 108.875
+      },
+      "pool": {
+        "executions": 397.25,
+        "runs": 33.75
+      }
+    },
+    {
+      "n_tests": 200,
+      "ddmin": {
+        "executions": 5316.75,
+        "runs": 163.125
+      },
+      "bisect": {
+        "executions": 2021.375,
+        "runs": 134.25
+      },
+      "pool": {
+        "executions": 814.5,
+        "runs": 41.25
+      }
+    },
+    {
+      "n_tests": 400,
+      "ddmin": {
+        "executions": 10649.375,
+        "runs": 184.5
+      },
+      "bisect": {
+        "executions": 3948.75,
+        "runs": 157.875
+      },
+      "pool": {
+        "executions": 1324.875,
+        "runs": 43.0
+      }
+    },
+    {
+      "n_tests": 800,
+      "ddmin": {
+        "executions": 21353.625,
+        "runs": 209.0
+      },
+      "bisect": {
+        "executions": 7812.375,
+        "runs": 179.0
+      },
+      "pool": {
+        "executions": 2498.25,
+        "runs": 45.5
+      }
+    },
+    {
+      "n_tests": 1600,
+      "ddmin": {
+        "executions": 42707.0,
+        "runs": 232.625
+      },
+      "bisect": {
+        "executions": 15527.5,
+        "runs": 203.5
+      },
+      "pool": {
+        "executions": 4642.625,
+        "runs": 46.75
+      }
+    }
+  ],
+  "by_victims": [
+    {
+      "n_victims": 1,
+      "ddmin": {
+        "executions": 2755.0,
+        "runs": 28.0
+      },
+      "bisect": {
+        "executions": 1020.375,
+        "runs": 24.25
+      },
+      "pool": {
+        "executions": 1309.375,
+        "runs": 19.25
+      }
+    },
+    {
+      "n_victims": 2,
+      "ddmin": {
+        "executions": 5486.25,
+        "runs": 48.375
+      },
+      "bisect": {
+        "executions": 1931.75,
+        "runs": 41.5
+      },
+      "pool": {
+        "executions": 1521.25,
+        "runs": 22.875
+      }
+    },
+    {
+      "n_victims": 4,
+      "ddmin": {
+        "executions": 10778.75,
+        "runs": 104.75
+      },
+      "bisect": {
+        "executions": 3857.875,
+        "runs": 88.875
+      },
+      "pool": {
+        "executions": 1917.375,
+        "runs": 31.75
+      }
+    },
+    {
+      "n_victims": 8,
+      "ddmin": {
+        "executions": 21353.625,
+        "runs": 209.0
+      },
+      "bisect": {
+        "executions": 7812.375,
+        "runs": 179.0
+      },
+      "pool": {
+        "executions": 2498.25,
+        "runs": 45.5
+      }
+    },
+    {
+      "n_victims": 16,
+      "ddmin": {
+        "executions": 49203.125,
+        "runs": 436.625
+      },
+      "bisect": {
+        "executions": 16901.0,
+        "runs": 364.375
+      },
+      "pool": {
+        "executions": 3875.75,
+        "runs": 68.5
+      }
+    },
+    {
+      "n_victims": 32,
+      "ddmin": {
+        "executions": 96972.75,
+        "runs": 928.25
+      },
+      "bisect": {
+        "executions": 34193.25,
+        "runs": 772.375
+      },
+      "pool": {
+        "executions": 5680.625,
+        "runs": 101.875
+      }
+    }
+  ]
+}

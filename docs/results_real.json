@@ -1,0 +1,32 @@
+{
+  "runner": "pytest",
+  "suite_tests": 100,
+  "victims": 6,
+  "pairs": 14,
+  "discovery": {
+    "runs": 7,
+    "executions": 106,
+    "wall_seconds": 6.434
+  },
+  "strategies": {
+    "ddmin": {
+      "label": "Delta debugging (ddmin)",
+      "runs": 123,
+      "executions": 2244,
+      "wall_seconds": 106.356
+    },
+    "bisect": {
+      "label": "Binary splitting",
+      "runs": 101,
+      "executions": 850,
+      "wall_seconds": 78.513
+    },
+    "pool": {
+      "label": "polluterpool",
+      "runs": 43,
+      "executions": 613,
+      "wall_seconds": 34.485
+    }
+  },
+  "total_wall_seconds": 225.8
+}
